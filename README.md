@@ -12,7 +12,7 @@ In the future, I will provide links to projects worth checking out.
 
 If you would like to get in touch with me, discuss potential collaboration, or propose a project, here are my contact details:
 
-- **Email**: [aleksey.de.vincha@gmail.com](mailto:aleksey.de.vincha@gmail.com)
+- **Email**: [cyanv98@gmail.com](mailto:cyanv98@gmail.com)
 - **Itch.io**: [cyanv.itch.io/](https://cyanv.itch.io/)
 - **Yandex Games**: Currently unavailable
 - **HH**: Currently unavailable. First I need to fill it with something :)
