@@ -6,7 +6,11 @@ I speak **Russian**, **English**, and **French**.
 
 ### Projects
 
-In the future, I will provide links to projects worth checking out.
+- [Minesweeper](https://yandex.ru/games/app/408716?draft=true&lang=ru) (obsolete, no sourse code)
+- [SUNSHAMAN](https://cyanv.itch.io/sunshaman) (no sourse code)
+- [Island Generator](https://cyanv.itch.io/simple-island-generator) (no sourse code)
+
+(Coming more in the future)
 
 ### Contacts
 
