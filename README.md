@@ -19,6 +19,7 @@ If you would like to get in touch with me, discuss potential collaboration, or p
 - **Email**: [cyanv98@gmail.com](mailto:cyanv98@gmail.com)
 - **Itch.io**: [cyanv.itch.io/](https://cyanv.itch.io/)
 - **Yandex Games**: Currently unavailable
+- **Google Play**: Currently unavailable
 - **HH**: Currently unavailable. First I need to fill it with something :)
 
 ---
