@@ -16,7 +16,7 @@ I speak **Russian**, **English**, and **French**.
 
 ### Contacts
 - **Email**: [cyanv98@gmail.com](mailto:cyanv98@gmail.com)
-- **Telegram**: [@CyanV98cml](https://t.me/CyanV98cml)
+- **Telegram**: [@CyanV_98](https://t.me/CyanV_98)
 - **Discord**: [cyanv98](https://discordapp.com/users/236759822727512064)
 
 <div align="center"> 
@@ -24,7 +24,7 @@ I speak **Russian**, **English**, and **French**.
   <a> • </a>
   <a href="https://github.com/CyanV98">GitHub</a>
   <a> • </a>
-  <a href="https://t.me/CyanV98cml">Telegram</a>
+  <a href="https://t.me/CyanV_98">Telegram</a>
   <a> • </a>
   <a href="https://yandex.ru/games/developer/60563">Yandex Games</a>
 </div>
