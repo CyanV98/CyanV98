@@ -1,12 +1,22 @@
 # CyanV | Unity Developer
 
-Hello! My name is **Alexey**, I am **26 years old** and I live in **Moscow**.  
+🇬🇧 
+
+Hello! My name is **Alexey**, my age is **26** and I live in **Moscow**.
 I am currently a **self-taught enthusiast**, striving to learn Unity and create exciting projects.  
 I speak **Russian**, **English**, and **French**.
+____
+🇷🇺 
+
+Привет! Меня зовут **Алексей**, мне **26** лет и я живу в **Москве**.
+Я **самоучка-энтузиаст**, стремящийся изучать Unity и создавать увлекательные проекты.  
+Владею **русским**, **английским** и **французским** языками.
+___
 
 ### Projects
 
-- [Minesweeper](https://yandex.ru/games/app/408716?draft=true&lang=ru) (obsolete, no sourse code)
+- [Yandex Music playlist exporter](https://github.com/CyanV98/yandex-music-playlist-exporter) (Saves tracks from the Yandex Music playlist as a text list)
+- [Minesweeper](https://yandex.ru/games/app/408716?draft=true&lang=ru) (Yandex Games project. Obsolete, no sourse code)
 - [SUNSHAMAN](https://cyanv.itch.io/sunshaman) (no sourse code)
 - [Island Generator](https://cyanv.itch.io/simple-island-generator) (no sourse code)
 
