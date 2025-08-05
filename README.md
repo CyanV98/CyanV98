@@ -2,7 +2,7 @@
 
 🇬🇧 
 
-Hello! My name is **Alexey**, my age is **26** and I live in **Moscow**.
+Hello! My name is **Alexey**, my age is **26**.
 I am currently a **self-taught enthusiast**, striving to learn Unity and create exciting projects.  
 I speak **Russian**, **English**, and **French**.
 ____
