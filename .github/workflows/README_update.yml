@@ -1,0 +1,41 @@
+name: README update
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # понедельник 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Calculate age and update README
+        run: |
+          BIRTHDATE="1998-09-19"
+          TODAY=$(date -u +%Y-%m-%d)
+          THIS_YEAR=$(date -d "$TODAY" +%Y)
+          
+          BIRTHDAY_THIS_YEAR="$THIS_YEAR-09-19"
+          AGE=$((THIS_YEAR - 1998))
+
+          # Если день рождения ещё не наступил в этом году — уменьшаем возраст
+          if [ "$(date -d "$TODAY" +%s)" -lt "$(date -d "$BIRTHDAY_THIS_YEAR" +%s)" ]; then
+            AGE=$((AGE - 1))
+          fi
+
+          # Обновляем английскую версию
+          sed -i "s/my age is \*\*.*\*\*/my age is **$AGE**/" README.md
+
+          # Обновляем русскую версию
+          sed -i "s/мне \*\*.*\*\* лет/мне **$AGE** лет/" README.md
+
+      - name: Commit and push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "Update age in README" || exit 0
+          git push
