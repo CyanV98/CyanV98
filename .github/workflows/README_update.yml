@@ -2,7 +2,7 @@ name: README update
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # понедельник 00:00 UTC
+    - cron: '0 0 * * 1' 
   workflow_dispatch:
 
 jobs:
@@ -21,15 +21,12 @@ jobs:
           BIRTHDAY_THIS_YEAR="$THIS_YEAR-09-19"
           AGE=$((THIS_YEAR - 1998))
 
-          # Если день рождения ещё не наступил в этом году — уменьшаем возраст
           if [ "$(date -d "$TODAY" +%s)" -lt "$(date -d "$BIRTHDAY_THIS_YEAR" +%s)" ]; then
             AGE=$((AGE - 1))
           fi
 
-          # Обновляем английскую версию
           sed -i "s/my age is \*\*.*\*\*/my age is **$AGE**/" README.md
 
-          # Обновляем русскую версию
           sed -i "s/мне \*\*.*\*\* лет/мне **$AGE** лет/" README.md
 
       - name: Commit and push
